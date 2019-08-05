@@ -19,10 +19,10 @@ The database contains 5 files:
   Class 1: human worker at distance (critical) <0.5m from the corresponding radar
   Class 2: human worker at distance (critical) 0.5m - 1m from the corresponding radar
   Class 3: human worker at distance (critical) 1m - 1.5m from the corresponding radar
-  Class 4: human worker at distance (critical) 1.5m - 2m from the corresponding radar
-  Class 5: human worker at distance (critical) 2m - 2.5m from the corresponding radar
-  Class 6: human worker at distance (critical) 2.5m - 3m from the corresponding radar
-  Class 7: human worker at distance (critical) 3m - 3.5m from the corresponding radar
+  Class 4: human worker at distance (safe) 1.5m - 2m from the corresponding radar
+  Class 5: human worker at distance (safe) 2m - 2.5m from the corresponding radar
+  Class 6: human worker at distance (safe) 2.5m - 3m from the corresponding radar
+  Class 7: human worker at distance (safe) 3m - 3.5m from the corresponding radar
   
 - label_train_2.mat: dimension 16000 x 1 -  y_train = database['label_train_2']
   Contains the true labels for train data (Data_train_2.mat), namely classes (true labels) correspond to integers from 0 to 7: 
@@ -30,10 +30,10 @@ The database contains 5 files:
   Class 1: human worker at distance (critical) <0.5m from the corresponding radar
   Class 2: human worker at distance (critical) 0.5m - 1m from the corresponding radar
   Class 3: human worker at distance (critical) 1m - 1.5m from the corresponding radar
-  Class 4: human worker at distance (critical) 1.5m - 2m from the corresponding radar
-  Class 5: human worker at distance (critical) 2m - 2.5m from the corresponding radar
-  Class 6: human worker at distance (critical) 2.5m - 3m from the corresponding radar
-  Class 7: human worker at distance (critical) 3m - 3.5m from the corresponding radar  
+  Class 4: human worker at distance (safe) 1.5m - 2m from the corresponding radar
+  Class 5: human worker at distance (safe) 2m - 2.5m from the corresponding radar
+  Class 6: human worker at distance (safe) 2.5m - 3m from the corresponding radar
+  Class 7: human worker at distance (safe) 3m - 3.5m from the corresponding radar  
   
 - permut.mat (1 x 16000)
   contains the chosen random permutation for data partition among nodes/device and federated learnig simulation (see python code)
